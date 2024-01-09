@@ -1,4 +1,4 @@
-# odin-recipes
+# Odin Recipes
 
 ##### This is the project of Odin Recipes in the Foundations Course in The Odin Project.
 
