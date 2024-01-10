@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffbff;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.recipes {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  width: 1400px;
+  margin: 20px auto;
+}
+
+.recipes li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #92817a;
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li img {
+  width: 600px;
+  z-index: 1;
+}
+
+ul li img:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+h1 {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f1dabf;
+  width: 101%;
+}
